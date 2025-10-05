@@ -3,8 +3,8 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, #ffd700, #fff8e7);
-    color: #333;
+    background: linear-gradient(90deg, #8B5CF6, #00FFC6);
+    color: #1A1B26;
     height: 100vh;
 }
 
@@ -33,19 +33,19 @@
 }
 
 .profile-left {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.4), transparent);
+    background: linear-gradient(90deg, #1A1B26, transparent);
     margin: 0px 0px 10px 20px;
     margin-left: 0px;
 }
 
 .introduction {
-    font-size: 66px;
+    font-size: 60px;
     margin-left: 20px;
+    color: white;
 }
 
 .name {
-    color: #fff8e7;
-    font-size: 100px;
+    font-size: 120px;
 }
 
 .name::before {
@@ -53,7 +53,7 @@
     display: block;
     width: 1000px;
     height: 1px;
-    background: linear-gradient(90deg, black, transparent);
+    background: linear-gradient(90deg, #1A1B26, transparent);
     margin-bottom: 5px;
     border-radius: 5px;
 }
@@ -63,31 +63,35 @@
     display: block;
     width: 1000px;
     height: 1px;
-    background: linear-gradient(90deg, black, transparent);
+    background: linear-gradient(90deg, #1A1B26, transparent);
     margin-top: 10px;
     border-radius: 5px;
 }
 
 .contact-me-btn {
-    background: linear-gradient(135deg, #ffd700, #fff8e7);
-    font-size: 24px;
-    font-weight: 400;
+    background: linear-gradient(135deg, #00FFC6, #8B5CF6);
+    font-size: 32px;
     border: none;
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 12px 28px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.6);
     margin-left: 20px;
 }
 
 .contact-me-btn:hover {
-    background: linear-gradient(135deg, #fff8e7, #ffd700);
+    background: linear-gradient(135deg, #8B5CF6, #00FFC6);
     transform: translateY(-2px);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+    box-shadow: 0.75px 1px 3px rgba(255, 255, 255, 0.6);
 }
 
 .contact-me-btn:active {
     padding: 10px 23px;
     transform: scale(0.95);
+}
+
+.professions-text-container {
+    background: #E5E5E5;
+    padding: 20px;
 }

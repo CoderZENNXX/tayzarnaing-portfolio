@@ -1,4 +1,5 @@
 import "../CSS/Home.css"
+import { Link } from "react-router-dom"
 
 function Home() {
   return (
@@ -11,12 +12,12 @@ function Home() {
 
         <div className="profile-left">
           <h1 className="introduction">Hi, it's <br /><span className="name">Tayzar Naing</span></h1>
-          <button className="contact-me-btn">Contact Me</button>
+          <Link to="/contact"><button className="contact-me-btn">Contact Me</button></Link>
         </div>
       </div>
 
-      <div className="profession-text">
-        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis sunt tempore cum minus officiis nesciunt numquam incidunt, perferendis ipsa architecto non quasi quis commodi ab eveniet totam iusto esse quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolorum obcaecati tempora sapiente totam! Deleniti vel modi, quod officia sint ipsam. Tempore recusandae facere ratione ullam ipsum possimus voluptates dolorum?</h2>
+      <div className="professions-text-container">
+        <h2 className="professions-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis sunt tempore cum minus officiis nesciunt numquam incidunt, perferendis ipsa architecto non quasi quis commodi ab eveniet totam iusto esse quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolorum obcaecati tempora sapiente totam! Deleniti vel modi, quod officia sint ipsam. Tempore recusandae facere ratione ullam ipsum possimus voluptates dolorum?</h2>
       </div>
     </div>
   )
