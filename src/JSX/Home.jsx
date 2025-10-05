@@ -4,20 +4,19 @@ function Home() {
   return (
     <div className="home">
       <div className="profile">
-        <div className="profile-left">
+        <div className="profile-right">
           <img src="/placeholder.png" alt="profile-pic" className="profile-pic" />
-          <h1 className="name">Tayzar Naing</h1>
-          <h2 className="professions">Web Developer | Educational Content Creator | Academic Pursuer</h2>
+          <h1 className="professions">Web Developer<br />Educational Content Creator<br />Academic Pursuer</h1>
         </div>
 
-        <div className="profile-right">
-          <p className="professions-short-desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus corporis distinctio illo itaque quo voluptatum in amet autem aut ex ratione odit doloribus?</p>
+        <div className="profile-left">
+          <h1 className="introduction">Hi, it's <br /><span className="name">Tayzar Naing</span></h1>
           <button className="contact-me-btn">Contact Me</button>
         </div>
       </div>
 
       <div className="profession-text">
-        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis sunt tempore cum minus officiis nesciunt numquam incidunt, perferendis ipsa architecto non quasi quis commodi ab eveniet totam iusto esse quas.</h3>
+        <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis sunt tempore cum minus officiis nesciunt numquam incidunt, perferendis ipsa architecto non quasi quis commodi ab eveniet totam iusto esse quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolorum obcaecati tempora sapiente totam! Deleniti vel modi, quod officia sint ipsam. Tempore recusandae facere ratione ullam ipsum possimus voluptates dolorum?</h2>
       </div>
     </div>
   )

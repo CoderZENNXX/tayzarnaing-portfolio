@@ -1,0 +1,93 @@
+.profile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #ffd700, #fff8e7);
+    color: #333;
+    height: 100vh;
+}
+
+.profile * {
+    margin-bottom: 50px;
+}
+
+.profile-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-right * {
+    margin: 10px 50px 10px 0px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 400px;
+}
+
+.professions {
+    white-space: nowrap;
+}
+
+.profile-left {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.4), transparent);
+    margin: 0px 0px 10px 20px;
+    margin-left: 0px;
+}
+
+.introduction {
+    font-size: 66px;
+    margin-left: 20px;
+}
+
+.name {
+    color: #fff8e7;
+    font-size: 100px;
+}
+
+.name::before {
+    content: "";
+    display: block;
+    width: 1000px;
+    height: 1px;
+    background: linear-gradient(90deg, black, transparent);
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.name::after {
+    content: "";
+    display: block;
+    width: 1000px;
+    height: 1px;
+    background: linear-gradient(90deg, black, transparent);
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contact-me-btn {
+    background: linear-gradient(135deg, #ffd700, #fff8e7);
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 28px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+}
+
+.contact-me-btn:hover {
+    background: linear-gradient(135deg, #fff8e7, #ffd700);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.contact-me-btn:active {
+    padding: 10px 23px;
+    transform: scale(0.95);
+}
