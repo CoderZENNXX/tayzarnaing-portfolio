@@ -88,10 +88,11 @@
 
 .contact-me-btn:active {
     padding: 10px 23px;
-    transform: scale(0.95);
+    transform: scale(0.9);
 }
 
 .professions-text-container {
     background: #E5E5E5;
     padding: 20px;
+    margin: 0px 0px;
 }
