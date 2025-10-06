@@ -3,9 +3,10 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     background: linear-gradient(90deg, #8B5CF6, #00FFC6);
     color: #1A1B26;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .profile * {
@@ -17,6 +18,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .profile-right * {
@@ -34,18 +36,21 @@
 
 .profile-left {
     background: linear-gradient(90deg, #1A1B26, transparent);
-    margin: 0px 0px 10px 20px;
-    margin-left: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+.profile-left * {
+    margin-left: 20px;
 }
 
 .introduction {
     font-size: 60px;
-    margin-left: 20px;
-    color: white;
+    color: white;;
 }
 
 .name {
     font-size: 120px;
+    height: 50px;
 }
 
 .name::before {
@@ -54,8 +59,6 @@
     width: 1000px;
     height: 1px;
     background: linear-gradient(90deg, #1A1B26, transparent);
-    margin-bottom: 5px;
-    border-radius: 5px;
 }
 
 .name::after {
@@ -64,8 +67,6 @@
     width: 1000px;
     height: 1px;
     background: linear-gradient(90deg, #1A1B26, transparent);
-    margin-top: 10px;
-    border-radius: 5px;
 }
 
 .contact-me-btn {
@@ -77,7 +78,6 @@
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 3px 4px 10px rgba(255, 255, 255, 0.6);
-    margin-left: 20px;
 }
 
 .contact-me-btn:hover {
@@ -95,4 +95,27 @@
     background: #E5E5E5;
     padding: 20px;
     margin: 0px 0px;
+}
+
+@media (max-width: 1470px) {
+    .profile {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .profile-right {
+        flex-direction: column;
+    }
+    .profile-right * {
+        margin: 10px 0px 0px 20px;
+    }
+    .profile-pic {
+        height: 550px;
+    }
+    .professions {
+        font-size: 40px;
+    }
+    .profile-left {
+        margin-bottom: 0px;
+        width: 100vw;
+    }
 }

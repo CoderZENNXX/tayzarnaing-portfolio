@@ -11,7 +11,7 @@ function Home() {
         </div>
 
         <div className="profile-left">
-          <h1 className="introduction">Hi, it's <br /><span className="name">Tayzar Naing</span></h1>
+          <h1 className="introduction">Hi, it's <span className="name">Tayzar Naing</span></h1>
           <Link to="/contact"><button className="contact-me-btn">Contact Me</button></Link>
         </div>
       </div>

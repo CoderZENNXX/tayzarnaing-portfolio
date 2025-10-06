@@ -76,7 +76,7 @@
     height: 50px;
     width: auto;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .footer-tiktok-icon {
