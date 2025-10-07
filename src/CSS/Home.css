@@ -1,3 +1,7 @@
+.home {
+    overflow-x: hidden;
+}
+
 .profile {
     display: flex;
     flex-direction: row-reverse;
@@ -110,12 +114,80 @@
     }
     .profile-pic {
         height: 550px;
+        margin: 0px;
     }
     .professions {
         font-size: 40px;
+        margin: 0px;
+        margin-top: 20px;
     }
     .profile-left {
         margin-bottom: 0px;
         width: 100vw;
+    }
+}
+
+@media (max-width: 710px) {
+    .profile-pic {
+        height: 280px;
+    }
+    .professions {
+        font-size: 28px;
+    }
+    .introduction {
+        font-size: 50px;
+    }
+    .name {
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 595px) {
+    .introduction {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .name {
+        font-size: 60px;
+    }
+    .contact-me-btn {
+        font-size: 24px;
+        border-radius: 75px;
+        padding: 8px 21px;
+        margin-left: 10px;
+    }
+    .professions-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .profile-right {
+        margin-bottom: 0;
+    }
+    .profile-pic {
+        height: 200px;
+    }
+    .professions {
+        font-size: 22px;
+    }
+    .professions-text-container {
+        padding: 10px;
+    }
+    .professions-text {
+        font-size: 14px;
+    }
+    .introduction {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .name {
+        font-size: 50px;
+    }
+    .contact-me-btn {
+        font-size: 16px;
+        border-radius: 50px;
+        padding: 5.3px 14px;
+        margin-left: 6.6px;
     }
 }
