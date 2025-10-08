@@ -9,7 +9,7 @@
 }
 
 .nav-btn {
-    background: linear-gradient(135deg, #00FFC6, #8B5CF6);
+    background: linear-gradient(135deg, #00AAFF, #F472B6);
     color: #1A1B26;
     font-size: 16px;
     border: none;
@@ -23,14 +23,16 @@
 }
 
 .nav-btn:hover {
-    background: linear-gradient(135deg, #8B5CF6, #00FFC6);
+    background: linear-gradient(135deg, #F472B6, #00AAFF);
     transform: translateY(-2px);
     box-shadow: 0.75px 1px 3px rgba(255, 255, 255, 0.6);
+    color: white;
 }
 
 .nav-btn:active {
     padding: 10px 23px;
     transform: scale(0.9);
+    color: #1A1B26
 }
 
 .footer {
@@ -45,10 +47,6 @@
 
 .footer-name {
     margin-left: 20px;
-}
-
-.footer-name:hover {
-    color: #00FFC6;
 }
 
 .footer-link {
@@ -75,8 +73,20 @@
     height: 42px;
 }
 
-.footer-icon:hover {
-    color: #8B5CF6;
+.footer-github-icon:hover {
+    color: #9500FF;
+}
+
+.footer-facebook-icon:hover {
+    color: #0866ff;
+}
+
+.footer-instagram-icon:hover {
+    color: #DD2A7B;
+}
+
+.footer-tiktok-icon:hover {
+    color: #ff0033;
 }
 
 .footer-icon:active {

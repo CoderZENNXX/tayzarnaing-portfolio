@@ -1,5 +1,6 @@
 .home {
     overflow-x: hidden;
+    background: linear-gradient(90deg, #8B5CF6, #00FFC6);
 }
 
 .profile {
@@ -8,9 +9,8 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background: linear-gradient(90deg, #8B5CF6, #00FFC6);
-    color: #1A1B26;
     min-height: 100vh;
+    color: #1A1B26;
 }
 
 .profile * {
@@ -35,6 +35,7 @@
 }
 
 .professions {
+    color: #1A1B26;
     white-space: nowrap;
 }
 
@@ -49,7 +50,7 @@
 
 .introduction {
     font-size: 60px;
-    color: white;;
+    color: white;
 }
 
 .name {
@@ -75,6 +76,7 @@
 
 .contact-me-btn {
     background: linear-gradient(135deg, #00FFC6, #8B5CF6);
+    color: #1A1B26;
     font-size: 32px;
     border: none;
     border-radius: 100px;
@@ -88,17 +90,23 @@
     background: linear-gradient(135deg, #8B5CF6, #00FFC6);
     transform: translateY(-2px);
     box-shadow: 0.75px 1px 3px rgba(255, 255, 255, 0.6);
+    color: white;
 }
 
 .contact-me-btn:active {
     padding: 10px 23px;
     transform: scale(0.9);
+    color: #1A1B26;
 }
 
 .professions-text-container {
     background: #E5E5E5;
     padding: 20px;
     margin: 0px 0px;
+}
+
+.professions-text {
+    color: #1A1B26;
 }
 
 @media (max-width: 1470px) {
