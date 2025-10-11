@@ -14,7 +14,7 @@ function About() {
                     : "linear-gradient(90deg, #0EA5E9, #ddeeffff)",
                 }}
         >
-            <h1 className="about-text"  onClick={() => {
+            <h1 className="about-title"  onClick={() => {
                 if  (aboutJourney === "coding") {
                     setAboutJourney("academics")
                 }

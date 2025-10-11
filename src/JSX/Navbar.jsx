@@ -15,7 +15,7 @@ function Navbar() {
                     About
                 </button>
             </Link>
-            <Link to="/my-story">
+            <Link to="/mystory">
                 <button className="my-story-btn nav-btn">
                     My Story
                 </button>

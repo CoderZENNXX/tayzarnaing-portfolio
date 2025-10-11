@@ -1,0 +1,37 @@
+.my-story {
+    background: linear-gradient(135deg, #2563EB, #3B82F6, #FFD43B);
+    min-height: 100vh;
+    margin: 0;
+}
+.story-title {
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    color: white;
+}
+
+.story-paragraph {
+    white-space: wrap;
+    padding: 5px;
+    margin: 0;
+}
+
+.story-paragraph * {
+    text-indent: 20px;
+    padding: 12px 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .story-paragraph * {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .story-paragraph * {
+        font-size: 14px;
+    }
+}

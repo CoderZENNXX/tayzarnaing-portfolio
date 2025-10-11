@@ -2,12 +2,13 @@
     overflow-x: hidden;
 }
 
-.about-text {
+.about-title {
     color: white;
     padding: 20px;
     margin: 0px 0px;
     border-bottom: 1px solid #1A1B26;
     cursor: pointer;
+    text-align: center;
 }
 
 .roadmap {
