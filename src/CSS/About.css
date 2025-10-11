@@ -1,41 +1,32 @@
 .about {
     overflow-x: hidden;
-    background: linear-gradient(270deg, #06B6D4, #F59E0B);
 }
 
 .about-text {
     color: white;
     padding: 20px;
     margin: 0px 0px;
-    border-bottom: 2px solid #1A1B26;
+    border-bottom: 1px solid #1A1B26;
     cursor: pointer;
 }
 
 .roadmap {
     display: flex;
+    align-items: stretch;
     margin: 20px;
-}
-
-.roadmap-title {
-    white-space: nowrap;
-}
-
-.roadmap-line {
-    width: 5px;
-    height: 820px;
-    background-color: #1A1B26;
-    margin-left: 50px;
+    min-height: 100vh;
 }
 
 .milestones-container {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    padding: 5px;
 }
 
 .milestone-description {
     margin: 0px 0px;
     font-weight: 400;
+    font-size: 18px;
 }
 
 .milestone-tiktok-link {
@@ -49,8 +40,8 @@
     display: block;
     width: 0;
     height: 1.5px;
-    background: white;
-    transition: width 0.6s;
+    background: linear-gradient(90deg, white, transparent);
+    transition: width 0.45s;
 }
 
 .milestone-tiktok-link:hover::before, .milestone-tiktok-link:hover::after {
