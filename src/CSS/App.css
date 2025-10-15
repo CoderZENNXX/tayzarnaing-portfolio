@@ -6,6 +6,7 @@
     background: rgba(26, 27, 38, 0.99);
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .nav-btn {
@@ -87,6 +88,10 @@
 
 .footer-tiktok-icon:hover {
     color: #ff0033;
+}
+
+.footer-gmail-icon:hover {
+    color: green;
 }
 
 .footer-icon:active {

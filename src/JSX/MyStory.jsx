@@ -1,5 +1,4 @@
 import "../CSS/MyStory.css"
-import { Card } from "antd"
 
 function MyStory() {
   return (
@@ -10,7 +9,7 @@ function MyStory() {
                     I’m Tayzar Naing, a 13-year-old student from Myanmar, now studying in Thailand. I’ve always been someone who thinks logically and observes quietly, not the most social person, but deeply thoughtful. I tend to keep to myself, except with family or close friends, where conversation becomes something real and meaningful.
                 </div>
                 <div className="story-paragraph-2">
-                    My journey into technology started early, driven by curiosity and the urge to understand how things work. In 2024, that curiosity took form when I earned a Silver Medal in the International STEM Olympiad, a recognition that showed me I was capable of more than just learning, I could create, solve, and lead. The following year, in 2025, I earned a national tutor certification from UPchieve and began tutoring students nationwide. That experience taught me that knowledge means nothing unless it’s shared.
+                    My journey into technology started early, driven by curiosity and the urge to understand how things work. In 2024, that curiosity took form when I earned a Digital Silver Medal Certificate in the International STEM Olympiad, a recognition that showed me I was capable of more than just learning, I could create, solve, and lead. The following year, in 2025, I earned a national tutor certification from UPchieve and began tutoring students nationwide. That experience taught me that knowledge means nothing unless it’s shared.
                 </div>
                 <div className="story-paragraph-3">
                     That same year, I started Free Insight, an academic and educational page on TikTok where I simplify complex ideas and share insights with students from around the world. Creating content became more than just a project, it became a mission to make education engaging and accessible for everyone.

@@ -8,7 +8,7 @@ function About() {
         <div className="about" 
         style={{ background:
                     aboutJourney === "coding"
-                    ? "linear-gradient(90deg, #8B5CF6, #00FFC6)"
+                    ? "linear-gradient(90deg, #006affff, #ff3737ff)"
                     : aboutJourney === "academics"
                     ? "linear-gradient(90deg, #8B5E3C, white)"
                     : "linear-gradient(90deg, #0EA5E9, #ddeeffff)",

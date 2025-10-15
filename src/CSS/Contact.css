@@ -1,0 +1,58 @@
+.contact {
+    min-height: 100vh;
+    background: linear-gradient(180deg, white, rgba(255, 0, 0, 0.3));
+    margin: 0;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-profile-pic, .contact-text *, .contact-title, .contact-description {
+    padding: 5px;
+}
+
+.contact-profile-pic {
+    width: 50vw;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-title {
+    font-size: 50px;
+    margin: 0;
+}
+
+.contact-description {
+    width: 850px;
+}
+
+.contact-icon {
+    color: black;
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.contact-icon:active {
+    transform: scale(0.9);
+}
+
+.contact-facebook-icon {
+    margin-bottom: 3px;
+}
+
+.contact-gmail-icon {
+    margin-bottom: 1px;
+}
+
+.contact-pic {
+    width: 500px;
+}
