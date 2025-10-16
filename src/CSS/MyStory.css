@@ -18,10 +18,16 @@
 }
 
 .story-paragraph * {
+    display: flex;
     text-indent: 20px;
     padding: 12px 5px;
     font-size: 20px;
     font-weight: 500;
+}
+
+.stem-olympiad-logo {
+    width: 400px;
+    height: auto;
 }
 
 @media (max-width: 768px) {

@@ -7,7 +7,6 @@ export default function Contact() {
 
     return (
         <div className="contact">
-            <img src="placeholder.png" className="contact-profile-pic" />
             <div className="contact-text">
                 <h1 className="contact-title">Get In Touch</h1>
                 <h2 className="contact-description">
@@ -18,6 +17,11 @@ export default function Contact() {
                     <a className="contact-link" href="https://www.instagram.com/insta_zennxx" target="_blank"><FontAwesomeIcon className="contact-instagram-icon contact-icon" icon={faInstagram} /></a>
                     <a className="contact-link" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBmzjpqfccmgjTRdwDXHSLvrwXFJrSzDbdNRcnFfLGrrQlWVkdpvMnfJthPzJPwrzXLDnGc" target="_blank"><FontAwesomeIcon className="contact-gmail-icon contact-icon" icon={faEnvelope} /></a>
                 </div>
+            </div>
+            <div className="contact-image-container">
+                <img src="/placeholder.png" className="contact-tayzar-naing-image contact-image" />
+                <img src="/free-insight-tiktok-page.jpg" className="contact-free-insight-image contact-image" />
+                <img src="/coderzennxx-github.png" className="contact-github-image contact-image" />
             </div>
         </div>
     )
