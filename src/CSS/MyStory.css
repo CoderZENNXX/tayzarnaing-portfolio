@@ -6,7 +6,6 @@
 .story-title {
     text-align: center;
     margin: 0;
-    border-bottom: 1px solid black;
     padding: 20px;
     color: white;
 }
@@ -19,24 +18,98 @@
 
 .story-paragraph * {
     display: flex;
-    text-indent: 20px;
-    padding: 12px 5px;
-    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-indent: 50px;
+    padding: 18px 25px;
+    font-size: 23px;
     font-weight: 500;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.stem-olympiad-logo {
-    width: 400px;
+.story-paragraph * * {
+    border: none;
+}
+
+.story-paragraph-3, .story-paragraph-4 {
+    font-size: 34px;
+}
+
+.story-paragraph-4 {
+    background: url(/web-development-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-weight: bold;
+}
+
+.story-paragraph-5 {
+    flex-direction: column;
+    background: rgba(89, 118, 84, 0.6);
+}
+
+.story-image {
+    border-radius: 15%;
+}
+
+.story-paragraph-2-images {
+    display: flex;
+}
+
+.story-paragraph-2-images * {
+    width: 14vw;
     height: auto;
 }
 
-@media (max-width: 768px) {
+.free-insight-logo {
+    width: 30vw;
+}
+
+.university-campus {
+    width: 70vw;
+}
+
+@media (max-width: 1028px) {
     .story-paragraph * {
-        font-size: 16px;
+        font-size: 19px;
+    }
+    .story-paragraph-3 {
+        font-size: 25px;
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 850px) {
+    .story-paragraph * {
+        font-size: 16px;
+        padding: 12px;
+    }
+    .story-paragraph-3 {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 650px) {
+    .story-paragraph-2 {
+        flex-direction: column;
+    }
+    .story-paragraph-2 img, .free-insight-logo {
+        width: 40vw;
+    }
+    .story-paragraph-3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .story-paragraph-3 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 380px) {
     .story-paragraph * {
         font-size: 14px;
     }
