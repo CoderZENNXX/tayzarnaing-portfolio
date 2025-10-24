@@ -1,6 +1,19 @@
 .home {
     overflow-x: hidden;
-    background: linear-gradient(90deg, #8B5CF6, #00FFC6);
+    background: url(/bootstrap-logo.png), linear-gradient(90deg, #8B5CF6, #00FFC6);
+    animation: gradient-animation 10s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 50% 0%; /* Starting position */
+    }
+    50% {
+        background-position: 50% 100%; /* Mid-point position */
+    }
+    100% {
+        background-position: 50% 0%; /* Return to starting position */
+    }
 }
 
 .profile {
@@ -76,7 +89,7 @@
 }
 
 .contact-me-btn {
-    background: linear-gradient(135deg, #00FFC6, #8B5CF6);
+    background: linear-gradient(135deg, #00AAFF, #FF329C);
     color: #1A1B26;
     font-size: 32px;
     border: none;
@@ -88,7 +101,7 @@
 }
 
 .contact-me-btn:hover {
-    background: linear-gradient(135deg, #8B5CF6, #00FFC6);
+    background: linear-gradient(135deg, #FF329C, #00AAFF);
     transform: translateY(-2px);
     box-shadow: 0.75px 1px 3px rgba(255, 255, 255, 0.6);
     color: white;
@@ -101,7 +114,7 @@
 }
 
 .professions-text-container {
-    background: #E5E5E5;
+    background: white;
     padding: 20px;
     margin: 0px 0px;
 }

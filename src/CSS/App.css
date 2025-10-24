@@ -10,7 +10,7 @@
 }
 
 .nav-btn {
-    background: linear-gradient(135deg, #00AAFF, #F472B6);
+    background: linear-gradient(135deg, #00AAFF, #FF329C);
     color: #1A1B26;
     font-size: 16px;
     border: none;
@@ -24,7 +24,7 @@
 }
 
 .nav-btn:hover {
-    background: linear-gradient(135deg, #F472B6, #00AAFF);
+    background: linear-gradient(135deg, #FF329C, #00AAFF);
     transform: translateY(-2px);
     box-shadow: 0.75px 1px 3px rgba(255, 255, 255, 0.6);
     color: white;

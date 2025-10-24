@@ -2,7 +2,22 @@
     background: linear-gradient(135deg, #2563EB, #3B82F6, #FFD43B);
     min-height: 100vh;
     margin: 0;
+    background-size: 300% 300%;
+    animation: gradient-animation 10s ease infinite;
 }
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 50% 0%; /* Starting position */
+    }
+    50% {
+        background-position: 50% 100%; /* Mid-point position */
+    }
+    100% {
+        background-position: 50% 0%; /* Return to starting position */
+    }
+}
+
 .story-title {
     text-align: center;
     margin: 0;

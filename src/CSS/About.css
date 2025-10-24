@@ -29,6 +29,10 @@
     height: 200px;
 }
 
+.milestone-free-insight-logo {
+    height: 140px;
+}
+
 .milestone-description {
     margin: 0px 0px;
     font-weight: 400;
@@ -39,6 +43,14 @@
     all: unset;
     font-size: 30px;
     cursor: pointer;
+}
+
+.milestone-tiktok-link:hover {
+    color: white;
+}
+
+.milestone-tiktok-link:active {
+    color: black;
 }
 
 .milestone-tiktok-link::before, .milestone-tiktok-link::after {
@@ -52,4 +64,8 @@
 
 .milestone-tiktok-link:hover::before, .milestone-tiktok-link:hover::after {
     width: 100%;
+}
+
+.milestone-tiktok-link:active::before, .milestone-tiktok-link:active::after {
+    background: linear-gradient(270deg, black, transparent);
 }

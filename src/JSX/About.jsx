@@ -148,7 +148,7 @@ function About() {
                                     <a className="milestone-tiktok-link" href="https://www.tiktok.com/@official.free.insight" target="_blank">@official.free.insight</a>
                                     This is my TikTok account where I share educational content and insights on various topics. Follow me for informative videos and tips on learning and personal development.
                                 </p>
-                                <img src="free-insight-logo.png" className="milestone-free-insight-logo milestone-image" />
+                                <img src="free-insight-transparent-logo.png" className="milestone-free-insight-logo milestone-image" />
                             </h1>
                         </>
                     )}
